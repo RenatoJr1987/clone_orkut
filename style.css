@@ -1,0 +1,125 @@
+:root{
+    background-color: #eba3e0;
+    font-family: 'segoe UI' , helvetica , Arial, Helvetica, sans-serif;
+}
+/*caixa*/
+.container{
+    width: 30%;
+    height: 60vh;
+    background-color: white;
+    margin: auto;
+    margin-top: 5%;
+    border-radius:20px ;
+   
+    max-width: 700px; /*respancividade*/
+    
+   /*site box shadow generate css*/
+    box-shadow: 10px 9px 24px 3px rgba(27,23,23,0.68);
+-webkit-box-shadow: 10px 9px 24px 3px rgba(27,23,23,0.68);
+-moz-box-shadow: 10px 9px 24px 3px rgba(27,23,23,0.68);
+
+}
+.fields{
+    margin: 5% 10%;
+}
+
+.pink__font{
+    color: #E8258e;
+}
+
+.fields__title{
+    display: flex;
+    justify-content: center;
+}
+
+#field__title{
+font-size: 15px;
+font-weight: bold;
+color: rgb(94, 91, 91);
+margin-top: 20px;
+margin-bottom: 5%;
+}
+
+.fields__Textboxs{
+   
+    height:  100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.fields__Textboxs > input{
+    height:  40px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+.fields__remember{
+    margin-bottom: 20px;
+}
+
+#btnlogin{
+    width: 100%;
+    border: none;
+    background: #E8258e;
+    color: white;
+    padding: 10px;
+    border-radius:5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+}
+
+.fields__recovery > a , .fields__create> a{
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+}
+
+.fields__recovery {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.fields__create{
+    font-size: 15px;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.logo >img{
+    height: 80px;
+}
+
+.rodape{
+    color: red;
+    font-size: 10px;
+    display: flex;
+    justify-content: flex-end;
+    
+
+    
+}
+
+
+/*respansividade midia screen*/
+
+@media screen and (nin-width:650px) {
+    .container{
+        margin-top: 10px;
+    }
+    #field__title{
+        font-size: 20px;
+    }
+    
+}
